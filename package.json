@@ -1,0 +1,33 @@
+{
+  "name": "calculator-testing-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "test-jasmine": "jasmine",
+    "test-dev": "karma-start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imvillacorta/calculator-testing-jasmine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imvillacorta/calculator-testing-jasmine/issues"
+  },
+  "homepage": "https://github.com/imvillacorta/calculator-testing-jasmine#readme",
+  "dependencies": {
+    "jasmine": "^4.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "karma": "^6.3.17",
+    "karma-browserify": "^8.1.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
+  }
+}
