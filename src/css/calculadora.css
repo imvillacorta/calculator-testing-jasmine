@@ -6,3 +6,7 @@
     width: 173px !important;
     margin-bottom: 4px;
 }
+
+.form-control {
+    display: initial;
+}
