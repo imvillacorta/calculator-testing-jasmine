@@ -9,7 +9,7 @@ describe('Suite de testes de divisão', () => {
         expect(Calculadora.dividir('9', '3')).toEqual(3);
     });
 
-    it('deve somar valores quebrados', () => {
+    it('deve dividir valores quebrados', () => {
         expect(Calculadora.dividir(4.5, 3)).toEqual(1.5);
     });
 
